@@ -1,6 +1,5 @@
 #!/bin/sh -l
 
-echo "Hello always"
+echo "Hello $1"
 time=$(date)
-echo "test"
 echo "::set-output name=time::$time"
